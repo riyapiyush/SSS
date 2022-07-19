@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="icon" href="Images/demo.ico" />
     <link rel="stylesheet" href="main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -15,20 +15,19 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>SSS</title>
     <style>
-      * {
-        font-family: "Poppins", sans-serif;
-      }
-    </style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@200;400;500;700&display=swap');
+      </style>
   </head>
 <body>
-    <div class="max-w-screen-lg m-auto shadow-xl box-border">
+    <div class="max-w-screen-lg m-auto border border-gray-300">
+
 
       <!-- SEARCH STARTS HERE -->
 
       <div class="my-6">
         <div class="p-2 flex flex-row relative">
            <a href="index.html">
-            <svg class="absolute m-1 left-8 bg-[#f1f1f1]" width="12" height="16" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="absolute mt-3 left-8 bg-[#f1f1f1]" width="12" height="16" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <mask id="path-1-inside-1_232_18" fill="white">
                 <path d="M7.08946 0L2.65855 6L7.08946 12L4.43091 12L0 6L4.43091 3.21875e-07L7.08946 0Z"/>
                 </mask>
@@ -42,22 +41,20 @@
             type="text"/>
 
             <div class="bg-[#f1f1f1] mx-1 w-20 h-10 flex flex-row rounded items-center justify-evenly absolute right-6">
-              <svg class="" width="22" height="22" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g clip-path="url(#clip0_232_22)">
-            <path d="M17.8125 14.25C17.8125 14.5649 17.6874 14.867 17.4647 15.0897C17.242 15.3124 16.9399 15.4375 16.625 15.4375H2.375C2.06006 15.4375 1.75801 15.3124 1.53531 15.0897C1.31261 14.867 1.1875 14.5649 1.1875 14.25V7.125C1.1875 6.81006 1.31261 6.50801 1.53531 6.28531C1.75801 6.06261 2.06006 5.9375 2.375 5.9375H3.76675C4.71109 5.93698 5.6166 5.56154 6.28425 4.89369L7.26988 3.91044C7.49194 3.6883 7.79297 3.5632 8.10706 3.5625H10.8906C11.2055 3.56257 11.5075 3.68772 11.7301 3.91044L12.7134 4.89369C13.0442 5.22466 13.4371 5.4872 13.8695 5.6663C14.3018 5.8454 14.7653 5.93756 15.2332 5.9375H16.625C16.9399 5.9375 17.242 6.06261 17.4647 6.28531C17.6874 6.50801 17.8125 6.81006 17.8125 7.125V14.25ZM2.375 4.75C1.74511 4.75 1.14102 5.00022 0.695621 5.44562C0.250223 5.89102 0 6.49511 0 7.125L0 14.25C0 14.8799 0.250223 15.484 0.695621 15.9294C1.14102 16.3748 1.74511 16.625 2.375 16.625H16.625C17.2549 16.625 17.859 16.3748 18.3044 15.9294C18.7498 15.484 19 14.8799 19 14.25V7.125C19 6.49511 18.7498 5.89102 18.3044 5.44562C17.859 5.00022 17.2549 4.75 16.625 4.75H15.2332C14.6034 4.74987 13.9994 4.49955 13.5541 4.05413L12.5709 3.07087C12.1256 2.62545 11.5216 2.37513 10.8918 2.375H8.10825C7.47841 2.37513 6.87442 2.62545 6.42912 3.07087L5.44588 4.05413C5.00058 4.49955 4.39659 4.74987 3.76675 4.75H2.375Z" fill="#A14323"/>
-            <path d="M9.5 13.0625C8.71264 13.0625 7.95753 12.7497 7.40078 12.193C6.84403 11.6362 6.53125 10.8811 6.53125 10.0938C6.53125 9.30639 6.84403 8.55128 7.40078 7.99453C7.95753 7.43778 8.71264 7.125 9.5 7.125C10.2874 7.125 11.0425 7.43778 11.5992 7.99453C12.156 8.55128 12.4688 9.30639 12.4688 10.0938C12.4688 10.8811 12.156 11.6362 11.5992 12.193C11.0425 12.7497 10.2874 13.0625 9.5 13.0625ZM9.5 14.25C10.6023 14.25 11.6595 13.8121 12.4389 13.0327C13.2184 12.2532 13.6562 11.1961 13.6562 10.0938C13.6562 8.99144 13.2184 7.93429 12.4389 7.15484C11.6595 6.37539 10.6023 5.9375 9.5 5.9375C8.39769 5.9375 7.34054 6.37539 6.56109 7.15484C5.78164 7.93429 5.34375 8.99144 5.34375 10.0938C5.34375 11.1961 5.78164 12.2532 6.56109 13.0327C7.34054 13.8121 8.39769 14.25 9.5 14.25ZM3.5625 7.71875C3.5625 7.87622 3.49994 8.02724 3.38859 8.13859C3.27724 8.24994 3.12622 8.3125 2.96875 8.3125C2.81128 8.3125 2.66026 8.24994 2.54891 8.13859C2.43756 8.02724 2.375 7.87622 2.375 7.71875C2.375 7.56128 2.43756 7.41026 2.54891 7.29891C2.66026 7.18756 2.81128 7.125 2.96875 7.125C3.12622 7.125 3.27724 7.18756 3.38859 7.29891C3.49994 7.41026 3.5625 7.56128 3.5625 7.71875Z" fill="#A14323"/>
-            </g>
-            <defs>
-            <clipPath id="clip0_232_22">
-            <rect width="19" height="19" fill="white"/>
-            </clipPath>
-            </defs>
-            </svg>
-
-        
-                <svg class="" width="22" height="22" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M10 12.5C11.3834 12.5 12.4917 11.3833 12.4917 10L12.5 5C12.5 3.61667 11.3834 2.5 10 2.5C8.61669 2.5 7.50002 3.61667 7.50002 5V10C7.50002 11.3833 8.61669 12.5 10 12.5ZM9.00002 4.91667C9.00002 4.36667 9.45002 3.91667 10 3.91667C10.55 3.91667 11 4.36667 11 4.91667L10.9917 10.0833C10.9917 10.6333 10.55 11.0833 10 11.0833C9.45002 11.0833 9.00002 10.6333 9.00002 10.0833V4.91667ZM14.4167 10C14.4167 12.5 12.3 14.25 10 14.25C7.70002 14.25 5.58335 12.5 5.58335 10H4.16669C4.16669 12.8417 6.43335 15.1917 9.16669 15.6V18.3333H10.8334V15.6C13.5667 15.2 15.8334 12.85 15.8334 10H14.4167Z" fill="#A14323"/>
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_232_139)">
+                <path d="M16.875 13.5C16.875 13.7984 16.7565 14.0845 16.5455 14.2955C16.3345 14.5065 16.0484 14.625 15.75 14.625H2.25C1.95163 14.625 1.66548 14.5065 1.4545 14.2955C1.24353 14.0845 1.125 13.7984 1.125 13.5V6.75C1.125 6.45163 1.24353 6.16548 1.4545 5.9545C1.66548 5.74353 1.95163 5.625 2.25 5.625H3.5685C4.46314 5.62451 5.32099 5.26883 5.9535 4.63612L6.88725 3.70463C7.09763 3.49418 7.38281 3.37566 7.68038 3.375H10.3174C10.6157 3.37506 10.9018 3.49363 11.1128 3.70463L12.0443 4.63612C12.3577 4.94968 12.7299 5.1984 13.1395 5.36807C13.5491 5.53775 13.9881 5.62505 14.4315 5.625H15.75C16.0484 5.625 16.3345 5.74353 16.5455 5.9545C16.7565 6.16548 16.875 6.45163 16.875 6.75V13.5ZM2.25 4.5C1.65326 4.5 1.08097 4.73705 0.65901 5.15901C0.237053 5.58097 0 6.15326 0 6.75L0 13.5C0 14.0967 0.237053 14.669 0.65901 15.091C1.08097 15.5129 1.65326 15.75 2.25 15.75H15.75C16.3467 15.75 16.919 15.5129 17.341 15.091C17.7629 14.669 18 14.0967 18 13.5V6.75C18 6.15326 17.7629 5.58097 17.341 5.15901C16.919 4.73705 16.3467 4.5 15.75 4.5H14.4315C13.8348 4.49987 13.2626 4.26274 12.8407 3.84075L11.9093 2.90925C11.4874 2.48726 10.9152 2.25013 10.3185 2.25H7.6815C7.08481 2.25013 6.51261 2.48726 6.09075 2.90925L5.15925 3.84075C4.73739 4.26274 4.16519 4.49987 3.5685 4.5H2.25Z" fill="black"/>
+                <path d="M9 12.375C8.25408 12.375 7.53871 12.0787 7.01126 11.5512C6.48382 11.0238 6.1875 10.3084 6.1875 9.5625C6.1875 8.81658 6.48382 8.10121 7.01126 7.57376C7.53871 7.04632 8.25408 6.75 9 6.75C9.74592 6.75 10.4613 7.04632 10.9887 7.57376C11.5162 8.10121 11.8125 8.81658 11.8125 9.5625C11.8125 10.3084 11.5162 11.0238 10.9887 11.5512C10.4613 12.0787 9.74592 12.375 9 12.375ZM9 13.5C10.0443 13.5 11.0458 13.0852 11.7842 12.3467C12.5227 11.6083 12.9375 10.6068 12.9375 9.5625C12.9375 8.51821 12.5227 7.51669 11.7842 6.77827C11.0458 6.03984 10.0443 5.625 9 5.625C7.95571 5.625 6.95419 6.03984 6.21577 6.77827C5.47734 7.51669 5.0625 8.51821 5.0625 9.5625C5.0625 10.6068 5.47734 11.6083 6.21577 12.3467C6.95419 13.0852 7.95571 13.5 9 13.5ZM3.375 7.3125C3.375 7.46168 3.31574 7.60476 3.21025 7.71025C3.10476 7.81574 2.96168 7.875 2.8125 7.875C2.66332 7.875 2.52024 7.81574 2.41475 7.71025C2.30926 7.60476 2.25 7.46168 2.25 7.3125C2.25 7.16332 2.30926 7.02024 2.41475 6.91475C2.52024 6.80926 2.66332 6.75 2.8125 6.75C2.96168 6.75 3.10476 6.80926 3.21025 6.91475C3.31574 7.02024 3.375 7.16332 3.375 7.3125Z" fill="black"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_232_139">
+                <rect width="18" height="18" fill="white"/>
+                </clipPath>
+                </defs>
                 </svg>
+                <svg class="" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10 12.5C11.3834 12.5 12.4917 11.3833 12.4917 10L12.5 5C12.5 3.61667 11.3834 2.5 10 2.5C8.61669 2.5 7.50002 3.61667 7.50002 5V10C7.50002 11.3833 8.61669 12.5 10 12.5ZM9.00002 4.91667C9.00002 4.36667 9.45002 3.91667 10 3.91667C10.55 3.91667 11 4.36667 11 4.91667L10.9917 10.0833C10.9917 10.6333 10.55 11.0833 10 11.0833C9.45002 11.0833 9.00002 10.6333 9.00002 10.0833V4.91667ZM14.4167 10C14.4167 12.5 12.3 14.25 10 14.25C7.70002 14.25 5.58335 12.5 5.58335 10H4.16669C4.16669 12.8417 6.43335 15.1917 9.16669 15.6V18.3333H10.8334V15.6C13.5667 15.2 15.8334 12.85 15.8334 10H14.4167Z" fill="black"/>
+              </svg>              
               </div>
           </div>
          </div>
@@ -70,120 +67,138 @@
     
                 <!-- ROW 1 -->
                 
+                <a href="productdisplay.html">
                 <div class="mb-6">
                     <img src="Images/31.png" alt="">
                     <p class="text-xs mt-2">Brown Bodycon Dress</p>
                     <p class="text-xs">₹499</p>
-                </div>
+                </div></a>
+                <a href="productdisplay.html">
                 <div class="mb-6">
                     <img src="Images/41.png" alt="">
                     <p class="text-xs mt-2">Dual Print Check Dress</p>
                     <p class="text-xs">₹499</p>
-                </div>
+                </div></a>
     
                 <!-- ROW 2 -->
     
+                <a href="productdisplay.html">
                 <div class="mb-6">
                     <img src="Images/42.png" alt="">
                     <p class="text-xs mt-2">Embellished Tan Flat</p>
                     <p class="text-xs">₹799</p>
-                </div>
+                </div></a>
+                <a href="productdisplay.html">
                 <div class="mb-6">
                     <img src="Images/39.png" alt="">
                     <p class="text-xs mt-2">Lavender Flip Flop</p>
                     <p class="text-xs">₹599</p>
-                </div>
+                </div></a>
                 
                 <!-- ROW 3 -->
                 
+                <a href="productdisplay.html">
                 <div class="mb-6">
                     <img src="Images/29.png" alt="">
                     <p class="text-xs mt-2">Halter Neck Top</p>
                     <p class="text-xs">₹299</p>
-                </div>
+                </div></a>
+                <a href="productdisplay.html">
                 <div class="mb-6">
                     <img src="Images/28.png" alt="">
                     <p class="text-xs mt-2">Checked Top</p>
                     <p class="text-xs">₹299</p>
-                </div>
+                </div></a>
     
                 <!-- ROW 4 -->
     
+                <a href="productdisplay.html">
                 <div class="mb-6">
                     <img src="Images/8.png" alt="">
                     <p class="text-xs mt-2">Tan Block Heels</p>
                     <p class="text-xs">₹999</p>
-                </div>
+                </div></a>
+                <a href="productdisplay.html">
                 <div class="mb-6">
                     <img src="Images/26.png" alt="">
                     <p class="text-xs mt-2">Diamond Studded Heel</p>
                     <p class="text-xs">₹1199</p>
-                </div>
+                </div></a>
                 
                 <!-- ROW 5 -->
                 
+                <a href="productdisplay.html">
                 <div class="mb-6">
                     <img src="Images/15.png" alt="">
                     <p class="text-xs mt-2">Embroidered Sneaker</p>
                     <p class="text-xs">₹1199</p>
-                </div>
+                </div></a>
+                <a href="productdisplay.html">
                 <div class="mb-6">
                     <img src="Images/17.png" alt="">
                     <p class="text-xs mt-2">Neon Sneaker</p>
                     <p class="text-xs">₹999</p>
-                </div>
+                </div></a>
     
                 <!-- ROW 6 -->
     
+                <a href="productdisplay.html">
                 <div class="mb-6">
                     <img src="Images/14.png" alt="">
                     <p class="text-xs mt-2">Liliac Cow Print Jeans</p>
                     <p class="text-xs">₹799</p>
-                </div>
+                </div></a>
+                <a href="productdisplay.html">
                 <div class="mb-6">
                     <img src="Images/13.png" alt="">
                     <p class="text-xs mt-2">Brown Cargo Pant</p>
                     <p class="text-xs">₹999</p>
-                </div>
+                </div></a>
                 
                 <!-- ROW 7 -->
                 
+                <a href="productdisplay.html">
                 <div class="mb-6">
                     <img src="Images/33.png" alt="">
                     <p class="text-xs mt-2">Skeleton Print Top</p>
                     <p class="text-xs">₹299</p>
-                </div>
+                </div></a>
+                <a href="productdisplay.html">
                 <div class="mb-6">
                     <img src="Images/22.png" alt="">
                     <p class="text-xs mt-2">Bubblegum Shorts</p>
                     <p class="text-xs">₹499</p>
-                </div>
+                </div></a>
     
                 <!-- ROW 8 -->
     
+                <a href="productdisplay.html">
                 <div class="mb-6">
                     <img src="Images/34.png" alt="">
                     <p class="text-xs mt-2">Yellow Printed Dress</p>
                     <p class="text-xs">₹799</p>
-                </div>
+                </div></a>
+                <a href="productdisplay.html">
                 <div class="mb-6">
                     <img src="Images/38.png" alt="">
                     <p class="text-xs mt-2">Printed Co-ord dress</p>
                     <p class="text-xs">₹599</p>
-                </div>
+                </div></a>
 
                 <!-- ROW 9 -->
     
+                <a href="productdisplay.html">
                 <div class="mb-6">
                   <img src="Images/8.png" alt="">
                   <p class="text-xs mt-2">Tan Block Heels</p>
                   <p class="text-xs">₹999</p>
-              </div>
+              </div></a>
+              <a href="productdisplay.html">
               <div class="mb-6">
                   <img src="Images/26.png" alt="">
                   <p class="text-xs mt-2">Diamond Studded Heel</p>
                   <p class="text-xs">₹1199</p>
-              </div>
+              </div></a>
               
             </div>
     
@@ -191,14 +206,14 @@
     
         <!-- GIVEN A SPACING AT BOTTOM -->
     
-          <div class="h-12"></div>
+          <div class="h-20"></div>
 
 
 
          <!-- FIXED BOTTOM -->
 
-         <div class="max-w-screen-lg mx-auto">
-            <div class="flex flex-row fixed bottom-0 w-full">
+         <div class="max-w-screen-lg w-screen mx-auto fixed bottom-0">
+            <div class="flex flex-row">
               <div class="w-1/2 h-12 flex flex-row bg-[#a14323] items-center justify-center">
                 <p class="text-white text-xs">Sort by</p>
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
