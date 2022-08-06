@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="Images/demo.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>SSS</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap");
+    </style>
+  </head>
+  <body>
+    <div class="max-w-screen-lg m-auto border border-gray-300">
+      <!-- TOP BAR STARTS HERE -->
+
+      <div class="flex flex-row m-2 items-center relative">
+        <a href="index.html"
+          ><div>
+            <img class="py-4 px-4" src="Images/backbutton.svg" alt="" />
+          </div>
+        </a>
+        <div class="m-1">
+          <p class="text-sm font-semibold">Combo Order</p>
+        </div>
+        <svg
+          class="absolute right-20"
+          width="19"
+          height="19"
+          viewBox="0 0 19 19"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M8.1253 16.2497C9.92808 16.2494 11.6789 15.6459 13.099 14.5354L17.5639 19L19 17.5639L14.5351 13.0993C15.6463 11.6792 16.2502 9.92802 16.2506 8.12487C16.2506 3.64502 12.6054 0 8.1253 0C3.64521 0 0 3.64502 0 8.12487C0 12.6047 3.64521 16.2497 8.1253 16.2497ZM8.1253 2.03122C11.4861 2.03122 14.2193 4.76422 14.2193 8.12487C14.2193 11.4855 11.4861 14.2185 8.1253 14.2185C4.76447 14.2185 2.03133 11.4855 2.03133 8.12487C2.03133 4.76422 4.76447 2.03122 8.1253 2.03122Z"
+            fill="black"
+          />
+        </svg>
+
+        <svg
+          class="absolute right-12"
+          width="22"
+          height="20"
+          viewBox="0 0 22 20"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M6 1C3.239 1 1 3.216 1 5.95C1 8.157 1.875 13.395 10.488 18.69C10.6423 18.7839 10.8194 18.8335 11 18.8335C11.1806 18.8335 11.3577 18.7839 11.512 18.69C20.125 13.395 21 8.157 21 5.95C21 3.216 18.761 1 16 1C13.239 1 11 4 11 4C11 4 8.761 1 6 1Z"
+            stroke="black"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <svg
+          class="absolute right-4"
+          width="27"
+          height="20"
+          viewBox="0 0 27 20"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M23.7322 6.59011L23.7355 6.597L23.739 6.60385C23.8914 6.90666 23.9831 7.25966 23.9979 7.63043C24.0126 7.99848 23.9506 8.36068 23.8228 8.68289L19.5929 18.7635C19.5928 18.7638 19.5926 18.7641 19.5925 18.7644C19.5485 18.868 19.4913 18.9313 19.4467 18.9642C19.4052 18.9947 19.3762 18.9989 19.362 18.9991H7.74597H7.72557L7.70519 18.9999C7.69066 19.0005 7.65158 18.9979 7.59521 18.9482C7.53463 18.8948 7.46475 18.7928 7.4305 18.6408L7.43043 18.6405L3.86728 2.85733L3.69124 2.07755H2.89183H1.291C1.27604 2.07755 1.21771 2.07183 1.14412 1.98414C1.06617 1.89125 1 1.73315 1 1.53922C1 1.3453 1.06617 1.18719 1.14412 1.09431C1.21771 1.00662 1.27604 1.0009 1.291 1.0009H3.87298H3.89338L3.91377 1.00007C3.92829 0.999477 3.96737 1.0021 4.02375 1.05181C4.08383 1.10479 4.15306 1.20553 4.18761 1.35543L4.93517 4.82642L5.1052 5.61587H5.91276H22.4264C22.6606 5.622 22.9029 5.69917 23.1311 5.85913C23.3639 6.02233 23.5766 6.26883 23.7322 6.59011Z"
+            stroke="black"
+            stroke-width="2"
+          />
+          <circle cx="23" cy="6" r="4" fill="#A14323" />
+        </svg>
+      </div>
+
+      <!-- ORDER STARTS HERE -->
+
+      <div class="mx-6 mb-12 mt-10 ">
+        <div class="flex flex-row p-3 relative bg-[#f1f1f1]">
+            <div>
+              <img class="mr-4" src="Images/R1.png" alt="" />
+            </div>
+            <div class="ml-4">
+              <p class="text-xs mt-1 font-bold text-[#5A5A5A]">
+                Beige molten flat pump
+              </p>
+              <div class="my-1.5">
+                <p class="text-[#5a5a5a] text-xs font-medium">SSS56782567</p>
+                <p class="text-[#5a5a5a] text-xs">x1, Eu 38</p>
+                <p class="text-xs font-medium">₹ 333</p>
+              </div>
+              <p class="text-[#a14323] text-xs font-semibold pt-1.5">
+                Delivered on 12/07/2022
+              </p>
+            </div>
+            <svg
+              class="absolute right-3 bottom-4"
+              width="14"
+              height="8"
+              viewBox="0 0 14 8"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <mask id="path-1-inside-1_1220_262" fill="white">
+                <path
+                  d="M0.53894 6.38962e-05L6.99998 4.77145L13.461 6.23777e-05L13.461 2.86289L6.99998 7.63428L0.538941 2.86289L0.53894 6.38962e-05Z"
+                />
+              </mask>
+              <path
+                d="M0.53894 6.38962e-05L6.99998 4.77145L13.461 6.23777e-05L13.461 2.86289L6.99998 7.63428L0.538941 2.86289L0.53894 6.38962e-05Z"
+                fill="black"
+              />
+              <path
+                d="M0.53894 6.38962e-05L1.133 -0.80436L-0.46106 -1.98155L-0.46106 6.39399e-05L0.53894 6.38962e-05ZM6.99998 4.77145L6.40592 5.57587L6.99998 6.01457L7.59403 5.57587L6.99998 4.77145ZM13.461 6.23777e-05L14.461 6.2334e-05L14.461 -1.98155L12.867 -0.804362L13.461 6.23777e-05ZM13.461 2.86289L14.0551 3.66732L14.461 3.36753L14.461 2.86289L13.461 2.86289ZM6.99998 7.63428L6.40592 8.4387L6.99998 8.8774L7.59404 8.4387L6.99998 7.63428ZM0.538941 2.86289L-0.461059 2.86289L-0.461059 3.36753L-0.0551149 3.66732L0.538941 2.86289ZM-0.0551153 0.804488L6.40592 5.57587L7.59403 3.96702L1.133 -0.80436L-0.0551153 0.804488ZM7.59403 5.57587L14.0551 0.804486L12.867 -0.804362L6.40592 3.96702L7.59403 5.57587ZM12.461 6.24214e-05L12.461 2.86289L14.461 2.86289L14.461 6.2334e-05L12.461 6.24214e-05ZM12.867 2.05847L6.40592 6.82985L7.59404 8.4387L14.0551 3.66732L12.867 2.05847ZM7.59403 6.82985L1.133 2.05847L-0.0551149 3.66732L6.40592 8.4387L7.59403 6.82985ZM1.53894 2.86289L1.53894 6.38525e-05L-0.46106 6.39399e-05L-0.461059 2.86289L1.53894 2.86289Z"
+                fill="black"
+                mask="url(#path-1-inside-1_1220_262)"
+              />
+            </svg>
+          </div>
+
+          <div class="flex flex-row p-3 my-3 relative bg-[#f1f1f1]">
+            <div>
+              <img class="mr-4" src="Images/R2.png" alt="" />
+            </div>
+            <div class="ml-4">
+              <p class="text-xs mt-1 font-bold text-[#5A5A5A]">
+                Beige seashell flat
+              </p>
+              <div class="my-1.5">
+                <p class="text-[#5a5a5a] text-xs font-medium">SSS56782567</p>
+                <p class="text-[#5a5a5a] text-xs">x1, Eu 38</p>
+                <p class="text-xs font-medium">₹ 333</p>
+              </div>
+              <p class="text-[#a14323] text-xs font-semibold pt-1.5">
+                Delivered on 12/07/2022
+              </p>
+            </div>
+            <svg
+              class="absolute right-3 bottom-4"
+              width="14"
+              height="8"
+              viewBox="0 0 14 8"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <mask id="path-1-inside-1_1220_262" fill="white">
+                <path
+                  d="M0.53894 6.38962e-05L6.99998 4.77145L13.461 6.23777e-05L13.461 2.86289L6.99998 7.63428L0.538941 2.86289L0.53894 6.38962e-05Z"
+                />
+              </mask>
+              <path
+                d="M0.53894 6.38962e-05L6.99998 4.77145L13.461 6.23777e-05L13.461 2.86289L6.99998 7.63428L0.538941 2.86289L0.53894 6.38962e-05Z"
+                fill="black"
+              />
+              <path
+                d="M0.53894 6.38962e-05L1.133 -0.80436L-0.46106 -1.98155L-0.46106 6.39399e-05L0.53894 6.38962e-05ZM6.99998 4.77145L6.40592 5.57587L6.99998 6.01457L7.59403 5.57587L6.99998 4.77145ZM13.461 6.23777e-05L14.461 6.2334e-05L14.461 -1.98155L12.867 -0.804362L13.461 6.23777e-05ZM13.461 2.86289L14.0551 3.66732L14.461 3.36753L14.461 2.86289L13.461 2.86289ZM6.99998 7.63428L6.40592 8.4387L6.99998 8.8774L7.59404 8.4387L6.99998 7.63428ZM0.538941 2.86289L-0.461059 2.86289L-0.461059 3.36753L-0.0551149 3.66732L0.538941 2.86289ZM-0.0551153 0.804488L6.40592 5.57587L7.59403 3.96702L1.133 -0.80436L-0.0551153 0.804488ZM7.59403 5.57587L14.0551 0.804486L12.867 -0.804362L6.40592 3.96702L7.59403 5.57587ZM12.461 6.24214e-05L12.461 2.86289L14.461 2.86289L14.461 6.2334e-05L12.461 6.24214e-05ZM12.867 2.05847L6.40592 6.82985L7.59404 8.4387L14.0551 3.66732L12.867 2.05847ZM7.59403 6.82985L1.133 2.05847L-0.0551149 3.66732L6.40592 8.4387L7.59403 6.82985ZM1.53894 2.86289L1.53894 6.38525e-05L-0.46106 6.39399e-05L-0.461059 2.86289L1.53894 2.86289Z"
+                fill="black"
+                mask="url(#path-1-inside-1_1220_262)"
+              />
+            </svg>
+          </div>
+
+          <div class="flex flex-row p-3 relative bg-[#f1f1f1]">
+            <div>
+              <img class="mr-4" src="Images/R3.png" alt="" />
+            </div>
+            <div class="ml-4">
+              <p class="text-xs mt-1 font-bold text-[#5A5A5A]">
+                Liliac weaved flat
+              </p>
+              <div class="my-1.5">
+                <p class="text-[#5a5a5a] text-xs font-medium">SSS56782567</p>
+                <p class="text-[#5a5a5a] text-xs">x1, Eu 38</p>
+                <p class="text-xs font-medium">₹ 333</p>
+              </div>
+              <p class="text-[#a14323] text-xs font-semibold pt-1.5">
+                Delivered on 12/07/2022
+              </p>
+            </div>
+            <svg
+              class="absolute right-3 bottom-4"
+              width="14"
+              height="8"
+              viewBox="0 0 14 8"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <mask id="path-1-inside-1_1220_262" fill="white">
+                <path
+                  d="M0.53894 6.38962e-05L6.99998 4.77145L13.461 6.23777e-05L13.461 2.86289L6.99998 7.63428L0.538941 2.86289L0.53894 6.38962e-05Z"
+                />
+              </mask>
+              <path
+                d="M0.53894 6.38962e-05L6.99998 4.77145L13.461 6.23777e-05L13.461 2.86289L6.99998 7.63428L0.538941 2.86289L0.53894 6.38962e-05Z"
+                fill="black"
+              />
+              <path
+                d="M0.53894 6.38962e-05L1.133 -0.80436L-0.46106 -1.98155L-0.46106 6.39399e-05L0.53894 6.38962e-05ZM6.99998 4.77145L6.40592 5.57587L6.99998 6.01457L7.59403 5.57587L6.99998 4.77145ZM13.461 6.23777e-05L14.461 6.2334e-05L14.461 -1.98155L12.867 -0.804362L13.461 6.23777e-05ZM13.461 2.86289L14.0551 3.66732L14.461 3.36753L14.461 2.86289L13.461 2.86289ZM6.99998 7.63428L6.40592 8.4387L6.99998 8.8774L7.59404 8.4387L6.99998 7.63428ZM0.538941 2.86289L-0.461059 2.86289L-0.461059 3.36753L-0.0551149 3.66732L0.538941 2.86289ZM-0.0551153 0.804488L6.40592 5.57587L7.59403 3.96702L1.133 -0.80436L-0.0551153 0.804488ZM7.59403 5.57587L14.0551 0.804486L12.867 -0.804362L6.40592 3.96702L7.59403 5.57587ZM12.461 6.24214e-05L12.461 2.86289L14.461 2.86289L14.461 6.2334e-05L12.461 6.24214e-05ZM12.867 2.05847L6.40592 6.82985L7.59404 8.4387L14.0551 3.66732L12.867 2.05847ZM7.59403 6.82985L1.133 2.05847L-0.0551149 3.66732L6.40592 8.4387L7.59403 6.82985ZM1.53894 2.86289L1.53894 6.38525e-05L-0.46106 6.39399e-05L-0.461059 2.86289L1.53894 2.86289Z"
+                fill="black"
+                mask="url(#path-1-inside-1_1220_262)"
+              />
+            </svg>
+          </div>
+      </div>
+
+      
+
+      <!-- INFO STARTS HERE -->
+
+      <div
+        class="border border-gray-500 bg-[#f5f5f5] rounded-xl h-12 mx-4 flex"
+      >
+        <div class="bg-black w-1/2 rounded-xl h-12">
+          <p class="text-center p-3 text-white text-sm">RETURN AN ITEM</p>
+        </div>
+        <div class="w-1/2 h-12">
+          <p class="text-center p-3 uppercase text-black text-sm font-semibold">
+            NEED HELP?
+          </p>
+        </div>
+      </div>
+
+      <div class="my-4">
+        <p class="font-semibold text-sm text-center mb-6">
+          You can raise an issue till 25/07/2022
+        </p>
+      </div>
+
+      <!-- SHARE STARTS HERE -->
+
+      <div class="relative mt-12">
+        <div class="flex flex-row items-center">
+          <p class="text-sm font-semibold absolute left-12">
+            Send Order Details
+          </p>
+          <svg
+            class="absolute right-12"
+            width="13"
+            height="15"
+            viewBox="0 0 13 15"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.5024 9.64887C10.1285 9.65088 9.7598 9.7428 9.42349 9.91784C9.08718 10.0929 8.79185 10.3466 8.55928 10.6602L4.90781 8.21476C5.04089 7.75465 5.04089 7.26218 4.90781 6.80207L8.55928 4.3566C8.9299 4.84822 9.45098 5.18344 10.0302 5.3029C10.6095 5.42235 11.2095 5.31832 11.724 5.00924C12.2385 4.70015 12.6343 4.20596 12.8412 3.61421C13.0482 3.02246 13.0529 2.37134 12.8546 1.77619C12.6563 1.18105 12.2678 0.680297 11.7579 0.362638C11.2479 0.044979 10.6495 -0.0690809 10.0686 0.0406634C9.48769 0.150408 8.96178 0.476872 8.58404 0.962226C8.2063 1.44758 8.00111 2.06049 8.00482 2.6924C8.00718 2.93169 8.0408 3.16945 8.10472 3.39875L4.45325 5.84421C4.13088 5.40948 3.69025 5.09294 3.19244 4.93848C2.69463 4.78402 2.16429 4.79928 1.67493 4.98215C1.18558 5.16503 0.761453 5.50645 0.461341 5.9591C0.16123 6.41175 0 6.95321 0 7.50841C0 8.06362 0.16123 8.60508 0.461341 9.05773C0.761453 9.51038 1.18558 9.8518 1.67493 10.0347C2.16429 10.2176 2.69463 10.2328 3.19244 10.0784C3.69025 9.92389 4.13088 9.60735 4.45325 9.17262L8.10472 11.6181C8.0408 11.8474 8.00718 12.0851 8.00482 12.3244C8.00482 12.8536 8.1513 13.3709 8.42574 13.8109C8.70018 14.2509 9.09025 14.5938 9.54662 14.7963C10.003 14.9988 10.5052 15.0518 10.9897 14.9486C11.4741 14.8454 11.9192 14.5905 12.2685 14.2163C12.6178 13.8422 12.8556 13.3654 12.952 12.8464C13.0484 12.3274 12.9989 11.7894 12.8099 11.3005C12.6208 10.8116 12.3007 10.3938 11.89 10.0998C11.4793 9.80579 10.9964 9.64887 10.5024 9.64887ZM10.5024 1.08706C10.7988 1.08706 11.0885 1.18121 11.335 1.35761C11.5814 1.534 11.7735 1.78472 11.8869 2.07806C12.0003 2.3714 12.03 2.69418 11.9722 3.00558C11.9143 3.31699 11.7716 3.60303 11.562 3.82754C11.3525 4.05205 11.0855 4.20495 10.7948 4.26689C10.5041 4.32883 10.2028 4.29704 9.92894 4.17554C9.65511 4.05403 9.42107 3.84827 9.25641 3.58428C9.09174 3.32028 9.00385 3.0099 9.00385 2.6924C9.00385 2.26663 9.16174 1.85831 9.44277 1.55725C9.7238 1.25619 10.105 1.08706 10.5024 1.08706ZM2.51012 9.11375C2.21374 9.11375 1.924 9.0196 1.67757 8.84321C1.43113 8.66681 1.23906 8.41609 1.12564 8.12275C1.01222 7.82941 0.982539 7.50663 1.04036 7.19523C1.09818 6.88382 1.24091 6.59778 1.45048 6.37327C1.66006 6.14876 1.92708 5.99586 2.21777 5.93392C2.50846 5.87198 2.80977 5.90377 3.08359 6.02527C3.35742 6.14678 3.59146 6.35254 3.75612 6.61654C3.92079 6.88053 4.00868 7.19091 4.00868 7.50841C4.00868 7.93418 3.85079 8.3425 3.56976 8.64356C3.28873 8.94462 2.90756 9.11375 2.51012 9.11375ZM10.5024 13.9298C10.206 13.9298 9.91629 13.8356 9.66986 13.6592C9.42342 13.4828 9.23135 13.2321 9.11792 12.9388C9.0045 12.6454 8.97483 12.3227 9.03265 12.0112C9.09047 11.6998 9.23319 11.4138 9.44277 11.1893C9.65235 10.9648 9.91936 10.8119 10.2101 10.7499C10.5007 10.688 10.8021 10.7198 11.0759 10.8413C11.3497 10.9628 11.5837 11.1686 11.7484 11.4326C11.9131 11.6966 12.001 12.0069 12.001 12.3244C12.001 12.7502 11.8431 13.1585 11.562 13.4596C11.281 13.7606 10.8998 13.9298 10.5024 13.9298Z"
+              fill="black"
+            />
+          </svg>
+        </div>
+      </div>
+
+      <!-- DELIVERY DETAILS STARTS HERE -->
+
+      <div class="relative mt-16">
+        <div class="flex flex-row items-center">
+          <p class="text-sm font-semibold absolute left-12">Delivery Details</p>
+          <svg
+            class="absolute right-12"
+            width="16"
+            height="16"
+            viewBox="0 0 16 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M1 13H15V14H1V13ZM12.7 4.5C13.1 4.1 13.1 3.5 12.7 3.1L10.9 1.3C10.5 0.9 9.9 0.9 9.5 1.3L2 8.8V12H5.2L12.7 4.5ZM10.2 2L12 3.8L10.5 5.3L8.7 3.5L10.2 2ZM3 11V9.2L8 4.2L9.8 6L4.8 11H3Z"
+              fill="#5A5A5A"
+            />
+          </svg>
+        </div>
+      </div>
+
+      <!-- ADDRESS STARTS HERE -->
+
+      <div class="flex flex-col mx-12 mt-4">
+        <p class="text-sm text-[#a14232] font-semibold">Natasha Mehrotra</p>
+        <p class="pb-2 text-[#a14232]" style="font-size: 10px">9060060225</p>
+        <p class="text-xs italic text-[#a14232]">House number:</p>
+        <p class="text-xs italic text-[#a14232]">
+          Road Number, Gali Number, Main Road
+        </p>
+        <p class="text-xs italic text-[#a14232]">Saket 110068</p>
+        <p class="text-xs italic text-[#a14232]">New Delhi</p>
+      </div>
+
+      <!-- PRICE DETAILS STARTS HERE -->
+
+      <div class="ml-12 mt-8">
+        <div><p class="font-semibold text-sm">Price Details</p></div>
+        <div class="flex flex-row mt-2 relative">
+          <p class="text-xs text-[#5A5A5A]">TOTAL MRP</p>
+          <p class="text-xs absolute right-12 text-[#5A5A5A]">₹3,456</p>
+        </div>
+        <div class="flex flex-row relative mt-1">
+          <p class="text-xs text-[#5A5A5A]">Discount on MRP</p>
+          <p class="text-xs absolute right-12 text-[#5A5A5A]">₹1,888</p>
+        </div>
+        <div class="flex flex-row relative mt-1">
+          <p class="text-xs text-[#5A5A5A]">Coupon Discount</p>
+          <p class="text-xs italic absolute right-12 text-[#5A5A5A]">
+            No Coupon Applied
+          </p>
+        </div>
+        <div class="flex flex-row relative mt-1">
+          <p class="text-xs text-[#5A5A5A]">Delievery Charge</p>
+          <p class="text-xs absolute right-12 italic text-[#5A5A5A]">₹99</p>
+        </div>
+        <div class="flex flex-row relative mt-1">
+          <p class="text-xs font-semibold text-[#a14323]">Amount Paid</p>
+          <p class="text-xs absolute right-12 font-semibold text-[#a14323]">
+            ₹1089
+          </p>
+        </div>
+
+        <div class="flex flex-row relative mt-4">
+          <p class="text-sm font-semibold">Mode of Payment:</p>
+          <p class="text-sm absolute right-12 font-light text-[#5A5A5A]">
+            Pay on Delivery
+          </p>
+        </div>
+      </div>
+
+      <!-- GIVEN A SPACING AT BOTTOM -->
+
+      <div class="h-40"></div>
+    </div>
+  </body>
+</html>
